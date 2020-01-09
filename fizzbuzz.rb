@@ -3,5 +3,6 @@ def fizzbuzz(number)
     print "Fizz"
   elsif number == 5
     print "Buzz"
-  else number = 15    
+  else number = 15
+  end    
 end
