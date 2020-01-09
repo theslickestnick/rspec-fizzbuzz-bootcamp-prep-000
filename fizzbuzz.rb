@@ -1,8 +1,11 @@
-def fizzbuzz(number)
-  if number == 3
-    print "Fizz"
-  elsif number == 5
-    print "Buzz"
-  else number = 15
-  end    
+def fizzbuzz(int)
+  if int % 3 == 0
+    "Fizz"
+  elsif int % 5 == 0
+    "Buzz"
+  elsif int % 15 = 0
+    "Fizzbuzz"
+  else int !% 3 || 5 == 0
+    "nil"
+  end
 end
